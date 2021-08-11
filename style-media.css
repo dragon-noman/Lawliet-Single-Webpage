@@ -1,0 +1,557 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        width: 600px;
+        margin: 0;
+    }
+    /* Top Section */
+    .navbar {
+        width: 600px;
+        height: 6.25rem;
+        left: 0;
+    }
+    .navbar-sticky {
+        width: 600px;
+        height: 6.25rem;
+        left: 0;
+    }
+    /* Logo */
+    .logo-text {
+        font-size: 25px;
+    }
+    .logo-text:hover {
+        font-size: 26px;
+    }
+    /* Nav-Item */
+    .nav-item {
+        flex-direction: column;
+        left: 200px;
+    }
+    .nav-contact, .nav-about, .nav-testimonials, .nav-terms {
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .nav-contact:hover, .nav-about:hover, .nav-testimonials:hover, .nav-terms:hover {
+        font-size: 15px;
+    }
+    .nav-search {
+        left: 550px;
+    }
+    /* Hero-Section */
+    .hero-section {
+        width: 600px;
+        height: 576px;
+    }
+    .hero-title {
+        width: 330px;
+        height: 111px;
+        line-height: 80%;
+        left: 15px;
+        top: 50px;
+        font-size: 40px;
+    }
+    .hero-para {
+        width: 380px;
+        height: 50px;
+        top: 170px;
+        left: 15px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .hero-button {
+        left: 85px;
+        top: 285px;
+    }
+    .get-button {
+        font-size: 18px;
+        width: 150px;
+        height: 70px;
+        border-radius: 40px;
+    }
+    .hero-footer {
+        position: absolute;
+        width: 400px;
+        height: 100px;
+        left: 15px;
+        top: 420px;
+    }
+    .hero-footer-para {
+        width: 310px;
+        height: 50px;
+        top: 0;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .hero-footer-link {
+        position: absolute;
+        width: 238px;
+        height: 70px;
+        left: 5px;
+        top: 40px;
+    }
+    .hero-airbnb,.hero-hubspot, .hero-google, .hero-microsoft {
+        width: 80px;
+        height: 25px;
+    }
+    .hero-hubspot {
+        margin: 0 105px;
+    }
+    .hero-image-body {
+        position: absolute;
+        width: 270px;
+        height: 685px;
+        left: 330px;
+        top: -110px;
+    }
+
+/* Why Section */
+    .why-section {
+        width: 600px;
+        height: 770px;
+    }
+    .why-title {
+        width: 480px;
+        height: 280px;
+        left: 40px;
+        top: 50px;
+    }
+    .why-head-title {
+        font-size: 30px;
+    }
+    .why-para {
+        width: 480px;
+        height: 45px;
+        top: 80px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .why-features {
+        position: absolute;
+        width: 530px;
+        height: 534px;
+        left: 35px;
+        top: 200px;
+    }
+    .why-features-enviornmental, .why-features-corporate, .why-features-information, .why-features-other {
+        padding: 10px;
+        width: 240px;
+        height: 230px;
+        border-radius: 50px;
+    }
+    .why-features-corporate {
+        left: 265px;
+    }
+    .why-features-information {
+        top: 255px;
+    }
+    .why-features-other {
+        top: 255px;
+        left: 265px;
+    }
+    .environmental-text, .corporate-text, .information-text, .other-text {
+        width: 200px;
+        height: 130px;
+        margin: 0 15px;
+    }
+    .enviornment-logo, .bag-logo, .rocket-logo, .user-logo {
+        position: relative;
+        left: 90px;
+    }
+    .enviornmental-title, .corporate-title, .information-title, .other-title {
+        width: 145px;
+        height: 44px;
+        font-weight: 700;
+        font-size: 17px;
+    }
+    .other-title {
+        position: relative;
+        top: 10px;
+    }
+
+    /* Achievement Section */
+    .achievement-section {
+        width: 600px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .achievement-heading {
+        padding: 0px;
+        width: 600px;
+        height: 104px;
+        left: 0;
+        top: 0;
+    }
+    .achievement-heading-title {
+        width: 585px;
+        height: 45px;
+        font-size: 38px;
+    }
+    .achievement-heading-para {
+        width: 585px;
+        font-size: 18px;
+        margin: 0;
+    }
+    .achievement-count-section {
+        width: 600px;
+        height: 96px;
+        left: -20px;
+        top: 44%;
+    }
+    .count-client, .count-business, .count-journey {
+        width: 175px;
+        margin: 0;
+    }
+    .count-business {
+        width: 235px;
+    }
+    .count-client-number, .count-business-number, .count-journey-number {
+        font-size: 38px;
+    }
+    .count-client-label, .count-business-label, .count-journey-label {
+        font-size: 17px;
+    }
+
+    /* Testimonial Section */
+    .testimonial-section {
+        width: 600px;
+        height: 810px;
+    }
+    .testimonial-header-title {
+        left: 55px;
+        top: 30px;
+    }
+    .testimonials {
+        flex-direction: column;
+        width: 600px;
+        height: 700px;
+        left: 0;
+        top: 130px;
+    }
+    .text-testimonial-1, .text-testimonial-2 {
+        position: relative;
+    }
+    .text-testimonial-2 {
+        left: 0;
+        top: 40px;
+    }
+    .card-rectangle-2 {
+        left: 0;
+    }
+    .card-vector-2 {
+        left: 260px;
+    }
+    .client-info-2 {
+        left: 160px;
+    }
+
+    /* CTA Section */
+    .cta-section {
+        width: 600px;
+        height: 880px;
+    }
+    .cta-title {
+        left: 55px;
+        top: 40px;
+    }
+    .cta-para {
+        width: 525px;
+        height: 135px;
+        left: 60px;
+        font-size: 20px;
+    }
+    .cta-button {
+        border-radius: 35px;
+        top: 315px;
+    }
+    .cta-img {
+        left: 90px;
+        top: 430px;
+    }
+
+    /* Footer */
+    .footer {
+        width: 600px;
+        height: 500px;
+    }
+    .footer-logo {
+        left: 20px;
+        top: 20px;
+    }
+    .footer-links {
+        height: 300px;
+        right: 0;
+        left: 0;
+    }
+    .footer-link-column {
+        width: 150px;
+        height: 305px;
+    }
+    .footer-end {
+        width: 600px;
+    }
+    .footer-reserved {
+        left: 5.46%;
+    }
+    .footer-social-link {
+        width: 230px;
+        right: 10px;
+    }
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 601px) and (max-width: 991px) {
+
+    .wrapper {
+        width: 950px;
+        margin: 0;
+    }
+
+    /* Top Section */
+    .navbar {
+        width: 950px;
+        left: 0;
+    }
+    .navbar-sticky {
+        position: absolute;
+        width: 950px;
+        height: 6.25rem;
+        left: 0;
+        top: 0px;
+    }
+
+    /* Nav-Item */
+    .nav-item {
+        left: 20.5rem;
+    }
+    .nav-search {
+        left: 54.3125rem;
+    }
+
+    /* Hero-Section */
+    .hero-section {
+        position: relative;
+        width: 950px;
+        height: 700px;
+    }
+    .hero-title {
+        width: 26.6875rem;
+        height: 8.5rem;
+        left: 10px;
+        top: 50px;
+        font-size: 50px;
+        line-height: 100%;
+    }
+    .hero-para {
+        width: 470px;
+        height: 80px;
+        top: 210px;
+        left: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 158%;
+    }
+
+    .hero-button {
+        left: 8.3125rem;
+        top: 20.125rem;
+    }
+    .get-button {
+        font-size: 20px;
+        border-radius: 30px;
+    }
+    .hero-footer {
+        position: absolute;
+        width: 400px;
+        height: 100px;
+        left: 15px;
+        top: 520px;
+    }
+    .hero-footer-para {
+        width: 400px;
+        height: 50px;
+        top: 0;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .hero-footer-link {
+        position: absolute;
+        width: 238px;
+        height: 70px;
+        left: 5px;
+        top: 50px;
+    }
+    .hero-image-body {
+        position: absolute;
+        width: 450px;
+        height: 810px;
+        left: 455px;
+        top: -110px;
+    }
+
+    /* Why Section */
+    .why-section {
+        width: 950px;
+        height: 820px;
+    }
+    .why-title {
+        width: 700px;
+        height: 120px;
+        left: 110px;
+        top: 50px;
+    }
+    .why-head-title {
+        font-size: 40px;
+    }
+    .why-para {
+        width: 600px;
+        height: 45px;
+        top: 80px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .why-features {
+        position: absolute;
+        width: 700px;
+        height: 630px;
+        left: 100px;
+        top: 200px;
+    }
+    .why-features-enviornmental, .why-features-corporate, .why-features-information, .why-features-other {
+        padding: 10px;
+        width: 300px;
+        height: 260px;
+        border-radius: 35px;
+    }
+    .why-features-corporate {
+        left: 340px;
+    }
+    .why-features-information {
+        top: 300px;
+    }
+    .why-features-other {
+        top: 300px;
+        left: 340px;
+    }
+    .environmental-text, .corporate-text, .information-text, .other-text {
+        width: 200px;
+        height: 185px;
+        margin: 0 20px;
+    }
+    .enviornment-logo, .bag-logo, .rocket-logo, .user-logo {
+        position: relative;
+        left: 90px;
+    }
+    .enviornmental-title, .corporate-title, .information-title, .other-title {
+        width: 145px;
+        height: 44px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .other-title {
+        position: relative;
+        top: 10px;
+    }
+    .environmental-para, .corporate-para, .information-para, .other-para {
+        width: 240px;
+        font-size: 16px;
+    }
+
+    /* Achievement Section */
+    .achievement-section {
+        width: 950px;
+        height: 356px;
+    }
+    .achievement-heading {
+        left: 95px;
+    }
+    .achievement-count-section {
+        left: 3.35%;
+    }
+    /* Testimonial Section */
+    .testimonial-section {
+        width: 950px;
+        height: 830px;
+    }
+    .testimonial-header-title {
+        left: 200px;
+        top: 30px;
+    }
+    .testimonials {
+        flex-direction: column;
+        width: 760px;
+        height: 740px;
+        left: 140px;
+        top: 130px;
+    }
+    .text-testimonial-1, .text-testimonial-2 {
+        position: relative;
+    }
+    .text-testimonial-2 {
+        left: 0;
+        top: 40px;
+    }
+    .card-rectangle-2 {
+        left: 0;
+    }
+    .card-vector-2 {
+        left: 260px;
+    }
+    .client-info-2 {
+        left: 160px;
+    }
+
+    /* CTA Section */
+    .cta-section {
+        width: 950px;
+        height: 880px;
+    }
+    .cta-title {
+        left: 220px;
+        top: 40px;
+    }
+    .cta-para {
+        width: 525px;
+        height: 135px;
+        left: 225px;
+        font-size: 20px;
+    }
+    .cta-button {
+        border-radius: 35px;
+        top: 315px;
+        left: 300px;
+    }
+    .cta-img {
+        left: 250px;
+        top: 430px;
+    }
+
+    /* Footer */
+    .footer {
+        width: 950px;
+        height: 500px;
+    }
+    .footer-logo {
+        left: 20px;
+        top: 20px;
+    }
+    .footer-links {
+        height: 300px;
+        right: 0;
+        left: 150px;
+    }
+    .footer-link-column {
+        width: 150px;
+        height: 305px;
+    }
+    .footer-end {
+        width: 950px;
+    }
+    .footer-reserved {
+        left: 5.46%;
+    }
+    .footer-social-link {
+        width: 230px;
+        right: 50px;
+    }
+}
